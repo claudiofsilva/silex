@@ -1,5 +1,14 @@
 {
     "require": {
-        "silex/silex": "~1.2"
+        "silex/silex": "~1.2",
+        "twig/twig": "~1.18",
+        "symfony/twig-bridge": "~2.6",
+        "doctrine/dbal": "~2.2"
+    },
+
+    "autoload" : {
+        "psr-4" : {
+            "Classes\\Sistema\\" : "src/Classes/Sistema/"
+        }
     }
 }
